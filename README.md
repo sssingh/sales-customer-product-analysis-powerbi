@@ -4,7 +4,7 @@ Click to open interactive PowerBI report</a>
 # Sales Customer Product Analysis
 In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Manufacturing Company's raw sales data and draw some meaningful insights.
 
-<img src="https://github.com/sssingh/sales-customer-product-analysis-powerbi/blob/main/images/title.png?raw=true" width="1000" height="600" />
+<img src="https://github.com/sssingh/sales-customer-product-analysis-powerbi/blob/main/images/title.png?raw=true" width="1000" height="800" />
 
 ## Features
 ⚡PowerBI Desktop   
