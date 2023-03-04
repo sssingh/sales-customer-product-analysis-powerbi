@@ -1,10 +1,11 @@
 <a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener"> <img class="pbi" src="https://datamatrix-ml.com/wp-content/uploads/2023/02/Power_BI_small_Logo.png" alt="Click here to open report" title="View PowerBI Report" style="width:45px;height:45px;">
 View PowerBI Report</a>
 
-# Pharmaceutical Sales Analysis
+# Sales Customer Product Analysis
 In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Manufacturing Company's raw sales data and draw some meaningful insights.
 
-<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="800" height="300" />
+<img src="https://github.com/sssingh/
+sales-customer-product-analysis-powerbi/blob/main/images/title.png?raw=true" width="1000" height="800" />
 
 ## Features
 ⚡PowerBI Desktop   
