@@ -71,7 +71,7 @@ WHERE
   PROD.FinishedGoodsFlag = 1 
 GO 
 
--- Fact: Internet Sales for (2017-2018)
+-- Fact: Internet Sales for (2016-2017)
 DROP 
   VIEW IF EXISTS vw_internet_sales 
 GO 
@@ -88,8 +88,3 @@ FROM
   [AdventureWorksDW2019].[dbo].[FactInternetSales]
   WHERE LEFT([OrderDateKey], 4) IN (2017, 2016)
 GO
-
-select distinct(LEFT([OrderDateKey], 6))
-FROM 
-  [AdventureWorksDW2019].[dbo].[FactInternetSales]
-  WHERE LEFT([OrderDateKey], 4) = 2016
