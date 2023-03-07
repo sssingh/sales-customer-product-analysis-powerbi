@@ -63,6 +63,7 @@ AdventureWorks allocates a monthly budget for sales. Basically its a monthly tar
 AW-DA01-REQ-1 <br> AW-DA01-REQ-2 <br> AW-DA01-REQ-3|AW-DA01-SOL-1|A `Executive Summary` dashboard/report-page will be build to show high-level overview of sales data. Report will contain visuals showing data as per requirements AW-DA01-REQ-1 & AW-DA01-REQ-2. <br> As per requirements AW-DA01-REQ-3, Year, month `slicers` and required `filters` will be made accessible to user so that he/she can filter/slice the dashborad data dynamically as per their wishes|
 AW-DA01-REQ-4 <br> AW-DA01-REQ-6|AW-DA01-SOL-2|A `Customer Analysis` dashboard/report-page will be build that'd show sales data segmented by various `customer` attributes (e.g. top customers, sales by customer gender, sales by customer marital status etc). It'll contain visuals showing data as per requirements AW-DA01-REQ-4. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to user so that he/she can filter/slice the dashborad data dynamically as per their wishes|
 AW-DA01-REQ-5 <br> AW-DA01-REQ-6|AW-DA01-SOL-3|`Product Analysis` dashboard/report-page will be build that'd show sales data segmented by various `product` attributes (e.g. top customers, sales by customer gender, sales by customer marital status etc). It'll contain visuals showing data as per requirements AW-DA01-REQ-5. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to user so that he/she can filter/slice the dashborad data dynamically as per their wishes|
+
 ***Table-2 : Proposed Solution***
 
 ### Exploratory Data Analysis (EDA)  and Data Preparation [SQL]
@@ -78,6 +79,7 @@ Here we explore the datawarehouse-database to identify the `dimention` and `fact
 |`DimProductCategory`|A dimention table containing product-category-related info|
 |`DimProductSubcategory`|A dimention table containing product-subcategory-related info|
 |`FactInternetSales`|A fact table containing sales-related information|
+
 ***Table-3 : Database Tables***
 #### Data Preparation
 We are going to import data directly from the database into powerBI. For this we could execute `SELECT` statement joining all the relevant tables from powerBI directly. However, instead, to make it more cleaner we'll create database `VIEWS` that'd encapsulate the required of SQL, and finally we just need to execute simple `SELECT * from <view>` statement from PowerBI. This approach has following advantages...
