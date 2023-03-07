@@ -7,11 +7,11 @@ In this ‘Data Analysis’ project, we’ll analyze a `AdventureWorks` is an on
 <img src="https://github.com/sssingh/sales-customer-product-analysis-powerbi/blob/main/images/title.png?raw=true" width="1000" height="800" />
 
 ## Features
-⚡Microsoft SQL Server / SQL / T-SQL [For building the datasource]
-⚡PowerBI Desktop [For building the PowerBI dashboard/report]
-⚡PowerQuery Editor [For data-transformation/data-modeling]
-⚡PowerBI Service [For making the report accessible on the web without PowerBI login]
-⚡Multipage fully Interactive Report [For drawing insights and analysis]
+⚡Microsoft SQL Server / SQL / T-SQL [For building the datasource]  
+⚡PowerBI Desktop [For building the PowerBI dashboard/report]  
+⚡PowerQuery Editor [For data-transformation/data-modeling]  
+⚡PowerBI Service [For making the report accessible on the web without PowerBI login]  
+⚡Multipage fully Interactive Report [For drawing insights and analysis]  
 
 ## Table of Contents
 - [Introduction](#introduction) 
