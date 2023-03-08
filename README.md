@@ -30,7 +30,7 @@ In this ‘Data Analysis’ project, we’ll analyze `AdventureWorks`, an online
 * Online sales transactions, inventory, financials, customer and product information are captured in real-time in a `transaction database`.
 * At the End of the day after the closing of business, data from the transaction database is extracted, formatted, and then exported to a `data warehouse database.` 
 
-## Objective
+## Objectives
 We have been asked by AdventureWorks to perform the in-depth data analysis for the years `2016 and 2017` and draw insight into company sales performance, customers, and products so that they can build a strategy around it to generate more revenue and higher profits. Specific business requirements/questions are…
 
 |Requirement ID|For Whom|Requirement Description|
@@ -60,9 +60,9 @@ AdventureWorks allocates a monthly budget for sales. The company sets a monthly 
   
 |Requirement ID|Solution ID|Proposed Solution|
 |:--|:---|:--|
-AW-DA01-REQ-1 <br> AW-DA01-REQ-2 <br> AW-DA01-REQ-3|AW-DA01-SOL-1|A `Executive Summary` dashboard/report page will be built to show a high-level overview of sales data. The report will contain visuals showing data as per requirements AW-DA01-REQ-1 & AW-DA01-REQ-2. <br> As per requirements AW-DA01-REQ-3, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
-AW-DA01-REQ-4 <br> AW-DA01-REQ-6|AW-DA01-SOL-2|A `Customer Analysis` dashboard/report page will be built to show sales data segmented by various `customer` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-4. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
-AW-DA01-REQ-5 <br> AW-DA01-REQ-6|AW-DA01-SOL-3|` Product Analysis` dashboard/report page will be built to show sales data segmented by various `product` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-5. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to users so that they can filter/slice the dashboard data dynamically as per their wishes|
+AW-DA01-REQ-1 <br> AW-DA01-REQ-2 <br> AW-DA01-REQ-3|AW-DA01-SOL-1|An `Executive Summary` PowerBI dashboard/report page will be built to show a high-level overview of sales data. The report will contain visuals showing data as per requirements AW-DA01-REQ-1 & AW-DA01-REQ-2. <br> As per requirements AW-DA01-REQ-3, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
+AW-DA01-REQ-4 <br> AW-DA01-REQ-6|AW-DA01-SOL-2|A `Customer Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `customer` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-4. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
+AW-DA01-REQ-5 <br> AW-DA01-REQ-6|AW-DA01-SOL-3|` Product Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `product` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-5. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to users so that they can filter/slice the dashboard data dynamically as per their wishes|
 
 ***Table-2 : Proposed Solution***
 
@@ -219,9 +219,9 @@ the data model is based on the four SQL views (three dimensions and one fact) we
 **NOTE:**  *The prefix `DIM` denotes the dimension table, and `FACT` is the fact table.*
 
 ### Report Creation [PowerBI Desktop]
-Three interactive reports (report pages) will be created. Refer to [Table-2: Proposed Solution](#solution-approach) for detailed requirements for solution mapping.
+Three interactive reports/dashboard (report pages) will be created to implement the proposed solution. Refer to [Table-2: Proposed Solution](#solution-approach) for detailed requirements and corresponding proposed solution. 
 
-#### 1. Executive Summary Report [AW-DA01-SOL-3]
+#### 1. Executive Summary Report [AW-DA01-SOL-1]
 This high-level report shows the overall sales figures, top customers, top products, and Sales Vs. Budget KPI at a glance.
 
 <img src="https://github.com/sssingh/sales-customer-product-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
