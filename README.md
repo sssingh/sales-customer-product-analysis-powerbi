@@ -34,12 +34,12 @@ We have been asked by AdventureWorks to perform the in-depth data analysis for t
 
 |Requirement ID|For Whom|Requirement Description|
 |:--|:---|:--|
-AW-DA01-REQ-1|Head of Sales|An high-level overview of internet sales by various dimensions such as `customers,` `products,` `customer-cities,` `quarter`|
-AW-DA01-REQ-2|Head of Sales|Follow/track `sales performance over time against the `budget/target`|
-AW-DA01-REQ-3|Head of Sales|Ability to dynamically slice/dice/filter data for `year,` `month,` `product-attributes`|
-AW-DA01-REQ-4|Sales Rep|A detailed overview of sales by `customers`|
-AW-DA01-REQ-5|Sales Rep|A detailed overview of sales by `products`|
-AW-DA01-REQ-6|Sales Rep|Ability to dynamically slice/dice/filter and analyze data by `year,` `month,` `product-attributes,` `customer-attributes`|
+AW-DA01-REQ-1|Head of Sales|An high-level overview of internet sales by various dimensions such as `customers,` `products,` `customer-cities,` `quarter`
+AW-DA01-REQ-2|Head of Sales|Follow/track `sales performance over time against the `budget/target`
+AW-DA01-REQ-3|Head of Sales|Ability to dynamically slice/dice/filter data for `year,` `month,` `product-attributes`
+AW-DA01-REQ-4|Sales Rep|A detailed overview of sales by `customers`
+AW-DA01-REQ-5|Sales Rep|A detailed overview of sales by `products`
+AW-DA01-REQ-6|Sales Rep|Ability to dynamically slice/dice/filter and analyze data by `year,` `month,` `product-attributes,` `customer-attributes`
 
 ***Table-1 : Requirements***
 
@@ -59,9 +59,9 @@ AdventureWorks allocates a monthly budget for sales. The company sets a monthly 
   
 |Requirement ID|Solution ID|Proposed Solution|
 |:--|:---|:--|
-AW-DA01-REQ-1 <br> AW-DA01-REQ-2 <br> AW-DA01-REQ-3|AW-DA01-SOL-1|An `Executive Summary` PowerBI dashboard/report page will be built to show a high-level overview of sales data. The report will contain visuals showing data as per requirements AW-DA01-REQ-1 & AW-DA01-REQ-2. <br> As per requirements AW-DA01-REQ-3, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
-AW-DA01-REQ-4 <br> AW-DA01-REQ-6|AW-DA01-SOL-2|A `Customer Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `customer` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-4. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes|
-AW-DA01-REQ-5 <br> AW-DA01-REQ-6|AW-DA01-SOL-3|` Product Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `product` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-5. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to users so that they can filter/slice the dashboard data dynamically as per their wishes|
+AW-DA01-REQ-1 <br> AW-DA01-REQ-2 <br> AW-DA01-REQ-3|AW-DA01-SOL-1|An `Executive Summary` PowerBI dashboard/report page will be built to show a high-level overview of sales data. The report will contain visuals showing data as per requirements AW-DA01-REQ-1 & AW-DA01-REQ-2. <br> As per requirements AW-DA01-REQ-3, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes
+AW-DA01-REQ-4 <br> AW-DA01-REQ-6|AW-DA01-SOL-2|A `Customer Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `customer` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-4. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to the user so that they can filter/slice the dashboard data dynamically as per their wishes
+AW-DA01-REQ-5 <br> AW-DA01-REQ-6|AW-DA01-SOL-3|` Product Analysis` PowerBI dashboard/report page will be built to show sales data segmented by various `product` attributes (e.g., top customers, sales by customer gender, sales by customer's marital status, etc.). It'll contain visuals showing data as per requirements AW-DA01-REQ-5. <br> As per requirements AW-DA01-REQ-6, Year, month `slicers` and required `filters` will be made accessible to users so that they can filter/slice the dashboard data dynamically as per their wishes
 
 ***Table-2 : Proposed Solution***
 
@@ -71,13 +71,13 @@ To understand, be familiar with and check the sanity of the given data, the firs
 Here we explore the datawarehouse-database to identify the `dimension` and `fact` tables we'd need as our data source. We further explore the identified tables to understand their structure and their data. Based on the requirements, we identified the tables below as our primary data source...
 |Table|Description|
 |:--|:--| 
-|`DimDate`|A dimension table containing date-related info|
-|`DimCustomer`|A dimension table containing customer-related info|
-|`DimGeography`|A dimension table containing customer-geography-related info|
-|`DimProduct`|A dimension table containing product-related info|
-|`DimProductCategory`|A dimension table containing product-category-related info|
-|`DimProductSubcategory`|A dimension table containing product-subcategory-related info|
-|`FactInternetSales`|A fact table containing sales-related information|
+|`DimDate`|A dimension table containing date-related info
+|`DimCustomer`|A dimension table containing customer-related info
+|`DimGeography`|A dimension table containing customer-geography-related info
+|`DimProduct`|A dimension table containing product-related info
+|`DimProductCategory`|A dimension table containing product-category-related info
+|`DimProductSubcategory`|A dimension table containing product-subcategory-related info
+|`FactInternetSales`|A fact table containing sales-related information
 
 ***Table-3 : Database Tables***
 #### Data Preparation
